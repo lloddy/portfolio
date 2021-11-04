@@ -1,6 +1,7 @@
 $mainColor: rgb(168, 168, 168);
 $mainFont: 'helvetica';
 $contrastColor: rgb(255, 255, 255);
+$secondColor: rgb(0, 251, 251);
 
 
 * {
@@ -15,6 +16,23 @@ body {
   
 }
 
+.indexMain {
+  display: flex;
+  #scrollImage {
+    object-fit: cover;
+    object-position: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 25%;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 3px solid $secondColor;
+  }
+  #logo {
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+}
 .navBar {
   display: flex;
   justify-content: space-around;
@@ -23,6 +41,15 @@ body {
   top: 0;
   height: 50px;
   align-items: center;
+  background-color: $secondColor;
+  a {
+    text-decoration: none;
+    color: $mainColor;
+    &:hover {
+      color: $contrastColor
+  }
+
+  }
 }
 
 footer {
