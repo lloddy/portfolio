@@ -2,6 +2,8 @@ import logo from '../assets/BandW.svg'
 import Image1 from '../assets/MET.jpeg'
 import Image2 from '../assets/Crit.png'
 import Image3 from '../assets/AvantGarde.png'
+import gitHub from '../assets/github.svg'
+import linkedin from '../assets/linkedin.svg'
 
 const Index = (props) => {
 
@@ -10,8 +12,14 @@ const Index = (props) => {
         <div className="indexMain">
             <img src={logo}  alt="logo" id="logo"/>
             <div>
-                <img src={Image1} alt="scrolling image" id="scrollImage"/>
+                    <img src={Image1} alt="scrolling image" id="scrollImage"/>
             </div>
+            <a href="https://github.com/lloddy" target="_blank">
+                <img src={gitHub}  alt="GitHub" id="github" className="icons"/>
+            </a>
+            <a href="https://www.linkedin.com/in/lloyd-eddy-6136705/" target="_blank">
+                <img src={linkedin}  alt="LinkedIn" id="linkedin" className="icons"/>
+            </a>
         </div>
     );
 };
