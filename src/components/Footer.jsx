@@ -1,7 +1,7 @@
 const Footer = (props) => {
     return (
         <footer className="footer">
-            <h1>The Footer</h1>
+            <p>Copyright &copy; All Rights Reserved, Lloyd Eddy 2021</p>
         </footer>
     );
 };
