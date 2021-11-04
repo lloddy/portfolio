@@ -1,6 +1,6 @@
 $mainColor: rgb(168, 168, 168);
 $mainFont: 'helvetica';
-$contrastColor: rgb(168, 168, 168);
+$contrastColor: rgb(255, 255, 255);
 
 
 * {
@@ -9,8 +9,9 @@ $contrastColor: rgb(168, 168, 168);
   font-family: $mainFont;
 }
 
-main {
+body {
   background-color: $mainColor;
+  min-height: 100%;
   
 }
 
@@ -20,10 +21,12 @@ main {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  height: 50px;
+  align-items: center;
 }
 
 footer {
-  display: block;
-  align-self: center;
-  bottom: 0;
+  position:absolute;
+  bottom:0;
+  width:100%;
 }

@@ -7,7 +7,7 @@ import Resume from '../pages/Resume';
 
 const Main = (props) => {
     return (
-        <main>
+        <main className="Main">
             <Switch>
                 <Route exact path='/'>
                     <Index />
