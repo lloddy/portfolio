@@ -82,3 +82,23 @@ footer {
   width: 100%;
   height: 2.5rem;
 }
+
+.projects {
+  margin: 40px;
+}
+
+.project1, .project2, .project3 {
+  background-color: $contrastColor;
+  display: flex;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  .portfolioText {
+    text-align: left;
+    padding: 10px 20px 20px 20px;
+    line-height: 1.25;
+    p, ul {
+      margin-bottom: 10px;
+    }
+    tr:nth-child(even) {background-color: #f2f2f2;}
+  }
+}
