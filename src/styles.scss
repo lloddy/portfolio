@@ -102,6 +102,10 @@ footer {
     padding-left: 20px;
     max-width: 400px;
     max-height: 200px;
-    border-radius: 20px;
+
   }
+}
+
+.resume {
+  tr:nth-child(even) {background-color: #f2f2f2;}
 }
