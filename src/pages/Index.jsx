@@ -4,6 +4,7 @@ import Image2 from '../assets/Crit.png'
 import Image3 from '../assets/AvantGarde.png'
 import gitHub from '../assets/github.svg'
 import linkedin from '../assets/linkedin.svg'
+import email from '../assets/email.svg'
 
 const Index = (props) => {
 
@@ -19,6 +20,9 @@ const Index = (props) => {
             </a>
             <a href="https://www.linkedin.com/in/lloyd-eddy-6136705/" target="_blank">
                 <img src={linkedin}  alt="LinkedIn" id="linkedin" className="icons"/>
+            </a>
+            <a href="mailto:lloyd_eddy@yahoo.com">
+                <img src={email} alt="Email" id="emailIcon" className="icons" />
             </a>
         </div>
     );

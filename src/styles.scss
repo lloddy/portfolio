@@ -13,7 +13,6 @@ $secondColor: rgb(0, 251, 251);
 body {
   background-color: $mainColor;
   min-height: 100%;
-  
 }
 
 .indexMain {
@@ -30,9 +29,9 @@ body {
   }
   #logo {
     margin-left: 50px;
-
   }
 }
+
 .navBar {
   display: flex;
   justify-content: space-around;
@@ -47,17 +46,8 @@ body {
     color: $mainColor;
     &:hover {
       color: $contrastColor
+    }
   }
-
-  }
-}
-
-.portfolioImages {
-  object-fit: scale-down;
-  object-position: left top;
-  width: 400px;
-  height: 200px;
-  
 }
 
 .icons {
@@ -76,6 +66,12 @@ body {
   left: 50px;
 }
 
+#emailIcon {
+  position: absolute;
+  top: 355px;
+  left: 200px;
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -92,6 +88,7 @@ footer {
   display: flex;
   border-radius: 30px;
   margin-bottom: 30px;
+  align-items: center;
   .portfolioText {
     text-align: left;
     padding: 10px 20px 20px 20px;
@@ -100,5 +97,11 @@ footer {
       margin-bottom: 10px;
     }
     tr:nth-child(even) {background-color: #f2f2f2;}
+  }
+  .portfolioImages {
+    padding-left: 20px;
+    max-width: 400px;
+    max-height: 200px;
+    border-radius: 20px;
   }
 }
