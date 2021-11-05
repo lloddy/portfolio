@@ -107,5 +107,14 @@ footer {
 }
 
 .resume {
+  text-align: left;
+  margin: 20px;
   tr:nth-child(even) {background-color: #f2f2f2;}
+  .resumeFields {
+    background-color: $contrastColor;
+  }
+  .skills {
+  margin-bottom: 20px;
+  width: 200px;
+  }
 }
