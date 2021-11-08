@@ -13,7 +13,9 @@ const Header = (props) => {
                 <Link to='/resume'>    
                     <h1>RESUME</h1>
                 </Link>    
-                    <a href="https://lloydeddy.wordpress.com/" target="_blank"><h1>ARTWORK</h1></a>
+                <Link to='/about'>
+                    <h1>About Me</h1>
+                </Link>
             </nav>
         </header>
     );

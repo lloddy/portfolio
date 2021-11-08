@@ -24,6 +24,7 @@ const Index = (props) => {
             <a href="mailto:lloyd_eddy@yahoo.com">
                 <img src={email} alt="Email" id="emailIcon" className="icons" />
             </a>
+
         </div>
     );
 };
