@@ -118,3 +118,36 @@ footer {
   width: 200px;
   }
 }
+.aboutMe {
+  margin: 20px;
+  color: $secondColor;
+  text-align: left;
+}
+.aboutMeText {
+  text-align: left;
+  line-height: 1.5;
+  margin: 20px;
+  max-width: 500px;
+}
+
+.artWork {
+  text-align: left;
+  margin: 20px;
+}
+
+.artIcon {
+  margin-top: 20px;
+  width: 50px;
+}
+
+.bioInfo {
+  display: flex;
+  .profilePic {
+    object-fit: cover;
+    width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    border: 3px solid $secondColor;
+    margin: 20px;
+  }
+}
