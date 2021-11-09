@@ -81,11 +81,14 @@ footer {
 
 .projects {
   margin: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .project1, .project2, .project3 {
   background-color: $contrastColor;
   display: flex;
+  flex-wrap: wrap;
   border-radius: 30px;
   margin-bottom: 30px;
   align-items: center;
@@ -102,7 +105,7 @@ footer {
     padding-left: 20px;
     max-width: 400px;
     max-height: 200px;
-
+    margin: 20px;
   }
 }
 
@@ -119,14 +122,13 @@ footer {
   }
   .resumeFields {
     display: flex;
+    flex-wrap: wrap;
     background-color: $contrastColor;
-    margin: 30px;
+    margin: 20px;
     gap: 30px;
     .skills, .experience, .education {
-      width: fit-content;
       margin: 20px;
-      width: 200px;
-      width: 400px;
+      max-width: 400px;
       h2 {
         background-color: $mainColor;
         color: $contrastColor;
@@ -134,7 +136,7 @@ footer {
         padding: 10px;
       }
       h3 {
-        margin-top: 10px;
+        margin-top: 20px;
       }
     }
   }
