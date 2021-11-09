@@ -2,7 +2,7 @@ const Resume = (props) => {
     return (
         <div className="resume">
             <div className="resumeHeading">
-                <h1>Lloyd Eddy</h1>
+                <h1 id="nameOnResume">Lloyd Eddy</h1>
                 <h3>Full-Stack Developer</h3>
             </div>
             <div className="resumeFields">

@@ -110,19 +110,42 @@ footer {
   text-align: left;
   margin: 20px;
   tr:nth-child(even) {background-color: #f2f2f2;}
-  .resumeFields {
-    background-color: $contrastColor;
+    .resumeHeading {
+    margin: 20px;
+      #nameOnResume {
+        font-size: 50px;
+        color: $secondColor;
+      } 
   }
-  .skills {
-  margin-bottom: 20px;
-  width: 200px;
+  .resumeFields {
+    display: flex;
+    background-color: $contrastColor;
+    margin: 30px;
+    gap: 30px;
+    .skills, .experience, .education {
+      width: fit-content;
+      margin: 20px;
+      width: 200px;
+      width: 400px;
+      h2 {
+        background-color: $mainColor;
+        color: $contrastColor;
+        margin-bottom: 10px;
+        padding: 10px;
+      }
+      h3 {
+        margin-top: 10px;
+      }
+    }
   }
 }
+
 .aboutMe {
   margin: 20px;
   color: $secondColor;
   text-align: left;
 }
+
 .aboutMeText {
   text-align: left;
   line-height: 1.5;
