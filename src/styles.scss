@@ -15,18 +15,20 @@ body {
   min-height: 100%;
 }
 
+.slideShow {
+  width: 300px;
+  height: 250px;
+  margin-top: 100px;
+  margin-left: 100px;
+  border: 3px solid $secondColor;
+  border-radius: 25%;
+  overflow: hidden;
+}
+
 .indexMain {
   display: flex;
-  #scrollImage {
-    object-fit: cover;
-    object-position: left;
-    width: 300px;
-    height: 300px;
-    border-radius: 25%;
-    margin-top: 100px;
-    margin-left: 100px;
-    border: 3px solid $secondColor;
-  }
+
+
   #logo {
     margin-left: 50px;
   }

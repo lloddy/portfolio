@@ -13,10 +13,10 @@ const About = (props) => {
                 developer and educator to invent innovative 
                 solutions to complex problems. 
                 I consider myself a supportive leader and invested collaborator, 
-                finding potential in my colleagues to be strengthened and showcased. 
+                finding potential in my colleagues to be nurtured and showcased. 
                 When I’m not at my easel or computer, 
                 you can find me spending time with my wife and daughter 
-                who inspire me to be the best version of me I can be.</p>
+                who inspire me to be the best version of myself I can be.</p>
                 <img src={profilePic} className="profilePic" alt="profile"/>
              </div>
              <div className="artWork">

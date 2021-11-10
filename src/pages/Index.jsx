@@ -1,19 +1,32 @@
 import logo from '../assets/BandW.svg'
-import Image1 from '../assets/MET.jpeg'
-import Image2 from '../assets/Crit.png'
-import Image3 from '../assets/AvantGarde.png'
+import Image1 from '../assets/slides/METbox.png'
+import Image2 from '../assets/slides/CCbox.png'
+import Image3 from '../assets/slides/AGbox.png'
 import gitHub from '../assets/github.svg'
 import linkedin from '../assets/linkedin.svg'
 import email from '../assets/email.svg'
+import AwesomeSlider from 'react-awesome-slider'
+import withAutoplay from 'react-awesome-slider/dist/autoplay';
+import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
 
 const Index = (props) => {
+    const AutoplaySlider = withAutoplay(AwesomeSlider);
+ 
 
 
     return (
         <div className="indexMain">
             <img src={logo}  alt="logo" id="logo"/>
-            <div>
-                    <img src={Image1} alt="scrolling image" id="scrollImage"/>
+            <div className="slideShow">
+                    <AutoplaySlider
+                        play={true}
+                        cancelOnInteraction={false} // should stop playing on user interaction
+                        interval={6000}
+                    >
+                        <div id="Slides" data-src={Image1} />
+                        <div id="Slides" data-src={Image2} />
+                        <div id="Slides" data-src={Image3} />
+                    </AutoplaySlider>
             </div>
             <a href="https://github.com/lloddy" target="_blank">
                 <img src={gitHub}  alt="GitHub" id="github" className="icons"/>
