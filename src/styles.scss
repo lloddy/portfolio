@@ -3,7 +3,6 @@ $mainFont: 'helvetica';
 $contrastColor: rgb(255, 255, 255);
 $secondColor: rgb(0, 251, 251);
 
-
 * {
   margin: 0;
   box-sizing: border-box;
@@ -15,22 +14,39 @@ body {
   min-height: 100%;
 }
 
-.slideShow {
-  width: 300px;
-  height: 250px;
-  margin-top: 100px;
-  margin-left: 100px;
-  border: 3px solid $secondColor;
-  border-radius: 25%;
-  overflow: hidden;
-}
-
 .indexMain {
   display: flex;
-
-
+  flex-wrap: wrap;
   #logo {
     margin-left: 50px;
+  }
+  .slideShow {
+    width: 300px;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 100px;
+    border: 3px solid $secondColor;
+    border-radius: 25%;
+    overflow: hidden;
+  }
+  .icons {
+    width: 50px;
+  }
+  #linkedin {
+    position: absolute;
+    top: 350px;
+    left: 150px;
+  }
+  
+  #github {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+  }
+  #emailIcon {
+    position: absolute;
+    top: 355px;
+    left: 250px;
   }
 }
 
@@ -50,28 +66,6 @@ body {
       color: $contrastColor
     }
   }
-}
-
-.icons {
-  width: 50px;
-}
-
-#linkedin {
-  position: absolute;
-  top: 350px;
-  left: 125px;
-}
-
-#github {
-  position: absolute;
-  top: 350px;
-  left: 50px;
-}
-
-#emailIcon {
-  position: absolute;
-  top: 355px;
-  left: 200px;
 }
 
 footer {
@@ -176,5 +170,42 @@ footer {
     border-radius: 50%;
     border: 3px solid $secondColor;
     margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .indexMain {
+    display: block;
+  }
+  .icons {
+    margin-bottom: 50px;
+    #linkedin {
+      
+    }
+    
+    #github {
+      position: absolute;
+      left: 20px;
+    }
+    #emailIcon {
+      position: absolute;
+      right: 20px;
+    }
+  }
+  #logo {
+    margin: 0;
+    margin-top: 100px;
+    max-width: 300px;
+  }
+  .slideShow {
+    position: absolute;
+    margin-left: 0;
+    left: 10px;
+    top: 350px;
+  }
+  .navBar{
+    a {
+      font-size: 12px;
+    }
   }
 }

@@ -14,7 +14,7 @@ const Header = (props) => {
                     <h1>RESUME</h1>
                 </Link>    
                 <Link to='/about'>
-                    <h1>About Me</h1>
+                    <h1>ABOUT ME</h1>
                 </Link>
             </nav>
         </header>
