@@ -27,10 +27,10 @@ const Index = (props) => {
                         <div id="Slides" data-src={Image3} />
                     </AutoplaySlider>
             </div>
-            <a href="https://github.com/lloddy" target="_blank">
+            <a href="https://github.com/lloddy" target="_blank" rel="noreferrer">
                 <img src={gitHub}  alt="GitHub" id="github" className="icons"/>
             </a>
-            <a href="https://www.linkedin.com/in/lloyd-eddy-6136705/" target="_blank">
+            <a href="https://www.linkedin.com/in/lloyd-eddy-6136705/" target="_blank" rel="noreferrer">
                 <img src={linkedin}  alt="LinkedIn" id="linkedin" className="icons"/>
             </a>
             <a href="mailto:lloyd_eddy@yahoo.com">

@@ -1,7 +1,7 @@
 import Art from '../assets/articon.svg'
 import profilePic from '../assets/propic.JPG'
 const About = (props) => {
-    
+
     return (
         <div>
             <h1 className="aboutMe">About Me</h1>
@@ -22,7 +22,7 @@ const About = (props) => {
              </div>
              <div className="artWork">
                 <h3>My Art</h3>
-                <a href="https://lloydeddy.wordpress.com/" target="_blank"><img src={Art} className="artIcon" alt="art"/></a>
+                <a href="https://lloydeddy.wordpress.com/" target="_blank"><img rel="noreferrer" src={Art} className="artIcon" alt="art"/></a>
             </div>
         </div>
     );
