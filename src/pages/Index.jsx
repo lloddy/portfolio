@@ -7,13 +7,11 @@ import linkedin from '../assets/linkedin.svg'
 import email from '../assets/email.svg'
 import AwesomeSlider from 'react-awesome-slider'
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
-import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
+
 
 const Index = (props) => {
     const AutoplaySlider = withAutoplay(AwesomeSlider);
  
-
-
     return (
         <div className="indexMain">
             <img src={logo}  alt="logo" id="logo"/>

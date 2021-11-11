@@ -1,6 +1,7 @@
 import Art from '../assets/articon.svg'
 import profilePic from '../assets/propic.JPG'
 const About = (props) => {
+    
     return (
         <div>
             <h1 className="aboutMe">About Me</h1>
