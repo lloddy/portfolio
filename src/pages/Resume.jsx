@@ -1,5 +1,5 @@
 const Resume = (props) => {
-    
+
     return (
         <div className="resume">
             <div className="resumeHeading">
@@ -49,7 +49,7 @@ const Resume = (props) => {
                     <ul>
                         <li>Customer Service</li>
                         <li>Sales</li>
-                        <li>Inusrance and Retirement Assesment</li>
+                        <li>Insurance and Retirement Assesment</li>
                     </ul>
 
                     <h3>Art Restorer</h3>
