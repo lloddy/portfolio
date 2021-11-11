@@ -7,13 +7,12 @@ import linkedin from '../assets/linkedin.svg'
 import email from '../assets/email.svg'
 import AwesomeSlider from 'react-awesome-slider'
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
+// eslint-disable-next-line no-unused-vars
 import AwesomeSliderStyles from 'react-awesome-slider/src/styles';
 
 const Index = (props) => {
     const AutoplaySlider = withAutoplay(AwesomeSlider);
  
-
-
     return (
         <div className="indexMain">
             <img src={logo}  alt="logo" id="logo"/>
@@ -37,7 +36,6 @@ const Index = (props) => {
             <a href="mailto:lloyd_eddy@yahoo.com">
                 <img src={email} alt="Email" id="emailIcon" className="icons" />
             </a>
-
         </div>
     );
 };
