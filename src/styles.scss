@@ -103,6 +103,14 @@ footer {
     max-height: 200px;
     margin: 20px;
   }
+  .projectTitles {
+    background-color: $secondColor;
+    padding: 5px;
+  }
+  .gitHubPort {
+    margin: 20px 0 10px 0;
+    width: 50px;
+  }
 }
 
 .resume {
