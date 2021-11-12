@@ -20,8 +20,33 @@ const About = (props) => {
                 who inspire me to be the best version of myself I can be.</p>
                 <img src={profilePic} className="profilePic" alt="profile"/>
              </div>
+             <div className="aboutSkillList">
+                    <table>
+                        <tr><th><h2>SKILLS</h2></th></tr>
+                        <tr><td>Full-Stack Development</td></tr>
+                        <tr><td>Software Development</td></tr>
+                        <tr><td>Back-End Web Development</td></tr>
+                        <tr><td>Front-End Web Development</td></tr>
+                        <tr><td>HTML</td></tr>
+                        <tr><td>CSS</td></tr>
+                        <tr><td>SASS</td></tr>
+                        <tr><td>JavaScript</td></tr>
+                        <tr><td>Mongoose ODM</td></tr>
+                        <tr><td>Node.js</td></tr>
+                        <tr><td>React.js</td></tr>
+                        <tr><td>MongDB</td></tr>
+                        <tr><td>Postman</td></tr>
+                        <tr><td>JSON</td></tr>
+                        <tr><td>Django</td></tr>
+                        <tr><td>JQuery</td></tr>
+                        <tr><td>Python</td></tr>
+                        <tr><td>Express.js</td></tr>
+                        <tr><td>GitHub</td></tr>
+                        <tr><td>Adobe Creative Suite</td></tr>
+                    </table>
+                </div>    
              <div className="artWork">
-                <h3>My Art</h3>
+                <h2>My Art</h2>
                 <a href="https://lloydeddy.wordpress.com/" rel="noreferrer" target="_blank"><img  src={Art} className="artIcon" alt="art"/></a>
             </div>
         </div>

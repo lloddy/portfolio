@@ -29,7 +29,6 @@ const Resume = (props) => {
                         <tr><td>Python</td></tr>
                         <tr><td>Express.js</td></tr>
                         <tr><td>GitHub</td></tr>
-                        <tr><td>Ruby on Rails</td></tr>
                         <tr><td>Adobe Creative Suite</td></tr>
                     </table>
                 </div>
@@ -42,6 +41,7 @@ const Resume = (props) => {
                         <li>Created full-stack applications</li>
                         <li>Database Management</li>
                         <li>4 projects designed</li>
+                        
                     </ul>
 
                     <h3>Account Manager</h3>
