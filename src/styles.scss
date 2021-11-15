@@ -208,4 +208,10 @@ footer {
     overflow: hidden;
     left: -60px;
   }
+  #project1, #project2, #project3 {
+    max-width: 200px;
+  }
+  .bioInfo {
+    display: block;
+  }
 }
