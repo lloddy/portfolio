@@ -40,6 +40,9 @@ body {
   #linkedin, #github, #emailIcon {
     width: 50px;
   }
+  #emailIcon {
+    padding-top: 5px;
+  }
 }
 
 .navBar {
@@ -193,14 +196,16 @@ footer {
     margin-top: 50px;
     max-width: 300px;
   }
-  .slideShow {
-    width: 300px;
-    max-height: 250px;
-    
-  }
   .navBar{
     a {
       font-size: 12px;
     }
+  }
+    .slideShow {
+    position: absolute;
+    width: 300px;
+    max-height: 250px;
+    overflow: hidden;
+    left: -60px;
   }
 }
