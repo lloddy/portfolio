@@ -184,6 +184,14 @@ footer {
 @media only screen and (max-width: 800px) {
   .indexMain {
     display: block;
+    .slideShow {
+    position: absolute;
+    width: 300px;
+    max-height: 275px;
+    overflow: hidden;
+    left: -60px;
+    border-radius: 0;
+  }
   }
   .icons {
     margin-bottom: 50px;
@@ -201,13 +209,7 @@ footer {
       font-size: 12px;
     }
   }
-    .slideShow {
-    position: absolute;
-    width: 300px;
-    max-height: 250px;
-    overflow: hidden;
-    left: -60px;
-  }
+
   #project1, #project2, #project3 {
     max-width: 200px;
   }
