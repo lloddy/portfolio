@@ -16,6 +16,17 @@ const Index = (props) => {
     return (
         <div className="indexMain">
             <img src={logo}  alt="logo" id="logo"/>
+            <div className="icons">
+                <a href="https://github.com/lloddy" target="_blank" rel="noreferrer">
+                    <img src={gitHub}  alt="GitHub" id="github" />
+                </a>
+                <a href="https://www.linkedin.com/in/lloyd-eddy-6136705/" target="_blank" rel="noreferrer">
+                    <img src={linkedin}  alt="LinkedIn" id="linkedin" />
+                </a>
+                <a href="mailto:lloyd_eddy@yahoo.com">
+                    <img src={email} alt="Email" id="emailIcon" />
+                </a>
+            </div>
             <div className="slideShow">
                     <AutoplaySlider
                         play={true}
@@ -27,15 +38,6 @@ const Index = (props) => {
                         <div id="Slides" data-src={Image3} />
                     </AutoplaySlider>
             </div>
-            <a href="https://github.com/lloddy" target="_blank" rel="noreferrer">
-                <img src={gitHub}  alt="GitHub" id="github" className="icons"/>
-            </a>
-            <a href="https://www.linkedin.com/in/lloyd-eddy-6136705/" target="_blank" rel="noreferrer">
-                <img src={linkedin}  alt="LinkedIn" id="linkedin" className="icons"/>
-            </a>
-            <a href="mailto:lloyd_eddy@yahoo.com">
-                <img src={email} alt="Email" id="emailIcon" className="icons" />
-            </a>
         </div>
     );
 };

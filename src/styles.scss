@@ -16,37 +16,29 @@ body {
 
 .indexMain {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   #logo {
-    margin-left: 50px;
+    max-height: 250px;
+    align-content: left;
+    margin-top: 40px;
   }
   .slideShow {
-    width: 300px;
-    height: 250px;
-    margin-top: 100px;
+    max-width: 500px;
+    height: 400px;
+    margin-top: 50px;
     margin-left: 100px;
     border: 3px solid $secondColor;
     border-radius: 25%;
     overflow: hidden;
   }
   .icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    gap: 30px;
+  }
+  #linkedin, #github, #emailIcon {
     width: 50px;
-  }
-  #linkedin {
-    position: absolute;
-    top: 350px;
-    left: 150px;
-  }
-  
-  #github {
-    position: absolute;
-    top: 350px;
-    left: 50px;
-  }
-  #emailIcon {
-    position: absolute;
-    top: 355px;
-    left: 250px;
   }
 }
 
@@ -192,29 +184,19 @@ footer {
   }
   .icons {
     margin-bottom: 50px;
-    // #linkedin {
-      
-    // }
-    
-    // #github {
-    //   position: absolute;
-    //   left: 20px;
-    // }
-    // #emailIcon {
-    //   position: absolute;
-    //   right: 20px;
-    // }
+    #linkedin, #github, #emailIcon {
+      width: 30px;
+    }
   }
   #logo {
     margin: 0;
-    margin-top: 100px;
+    margin-top: 50px;
     max-width: 300px;
   }
   .slideShow {
-    position: absolute;
-    margin-left: 0;
-    left: 10px;
-    top: 350px;
+    width: 300px;
+    max-height: 250px;
+    
   }
   .navBar{
     a {
