@@ -36,12 +36,14 @@ body {
     flex-direction: row;
     margin-left: 100px;
     gap: 30px;
-  }
-  #linkedin, #github, #emailIcon {
+    #linkedin, #github, #emailIcon {
     width: 50px;
-  }
-  #emailIcon {
-    padding-top: 5px;
+    &:hover {
+      width: 65px;
+      background-color: $contrastColor;
+      border-radius: 50%;
+      }
+    }
   }
 }
 
