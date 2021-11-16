@@ -210,19 +210,23 @@ footer {
     overflow: hidden;
     left: -60px;
     border-radius: 0;
+    }
   }
-  }
+
   .icons {
-    margin-bottom: 50px;
+    position: relative;
+    left: -50px;
+    margin: 30px;
     #linkedin, #github, #emailIcon {
       width: 30px;
     }
   }
+
   #logo {
-    margin: 0;
-    margin-top: 50px;
-    max-width: 300px;
+    left: -50px;
+    width: 250px;
   }
+
   .navBar{
     a {
       font-size: 12px;
