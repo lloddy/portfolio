@@ -2,6 +2,7 @@ import Image1 from '../assets/MET.jpeg'
 import Image2 from '../assets/Crit.png'
 import Image3 from '../assets/AvantGarde.png'
 import gitHub from '../assets/github.svg'
+import launch from '../assets/launch.svg'
 
 const Portfolio = (props) => {
     return (
@@ -9,7 +10,9 @@ const Portfolio = (props) => {
             <h1 className="portfolioTitle">Portfolio</h1>
             <div className="projects">
                 <div className="project1">
-                    <a href="https://fervent-edison-ae9da6.netlify.app/" rel="noreferrer" target="_blank"><img src={Image1} alt="MET" id="project1" className="portfolioImages"/></a>
+                    <a href="https://fervent-edison-ae9da6.netlify.app/" rel="noreferrer" target="_blank">
+                        <img src={Image1} alt="MET" id="project1" className="portfolioImages"/>
+                    </a>
                     <div className="portfolioText">
                         <h2 className="projectTitles">Art of the Metropolitan Museum of Art</h2>
                         <p>This is a search engine for art through the Metropolitan Museum of Art using an API.</p>
@@ -21,15 +24,26 @@ const Portfolio = (props) => {
                             <tr><td>Javascript/jQuery</td></tr>
                         </table>
                         </p>
-                        <a href="https://github.com/lloddy/Art-of-the-Metropolitan-Museum-of-Art" rel="noreferrer" target="_blank">
-                            <img src={gitHub} className="gitHubPort" alt="github" />
-                        </a>
-                        <h3>REPO</h3>
+                        <div className="portIcons">
+                            <div className="gitHubPort">
+                                <a href="https://github.com/lloddy/Art-of-the-Metropolitan-Museum-of-Art" rel="noreferrer" target="_blank">
+                                    <img src={gitHub} className="gitHubPort" alt="github" id="portIconsHover"/>
+                                </a>
+                                <h3>REPO</h3>
+                            </div>
+                            <div lassName="launchPort">
+                                <a href="https://fervent-edison-ae9da6.netlify.app/" rel="noreferrer" target="_blank">
+                                    <img src={launch} className="launchPort" alt="github" id="portIconsHover"/>    
+                                </a>
+                                <h3 className="launchPort">SITE</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="project2">
-                    <a href="https://desolate-inlet-28888.herokuapp.com/" rel="noreferrer" target="_blank"><img src={Image2} alt="CritClub" id="project2" className="portfolioImages"/></a> 
-                    
+                    <a href="https://desolate-inlet-28888.herokuapp.com/" rel="noreferrer" target="_blank">
+                        <img src={Image2} alt="CritClub" id="project2" className="portfolioImages"/>
+                    </a>
                     <div className="portfolioText">
                     <h2 className="projectTitles">Crit Club</h2>
                         <p>Are you an artist, just out of college/grad school craving the feedback that you once 
@@ -54,10 +68,20 @@ const Portfolio = (props) => {
                             <tr><td>Mongoose ODM</td></tr>
                             <tr><td>MongoDB</td></tr>
                         </table>
-                        <a href="https://github.com/lloddy/crit-club" rel="noreferrer" target="_blank">
-                            <img src={gitHub} className="gitHubPort" alt="github" />
-                        </a>
-                        <h3>REPO</h3>
+                            <div className="portIcons">
+                                <div className="gitHubPort">
+                                    <a href="https://github.com/lloddy/crit-club" rel="noreferrer" target="_blank">
+                                        <img src={gitHub} className="gitHubPort" alt="github" id="portIconsHover"/>
+                                    </a>
+                                    <h3>REPO</h3>
+                                </div>
+                                <div lassName="launchPort">
+                                        <a href="https://desolate-inlet-28888.herokuapp.com/" rel="noreferrer" target="_blank">
+                                            <img src={launch} className="launchPort" alt="github" id="portIconsHover"/>    
+                                        </a>
+                                        <h3 className="launchPort">SITE</h3>
+                                </div>
+                            </div>
                     </div>
                 </div>
                 <div className="project3">
@@ -93,10 +117,20 @@ const Portfolio = (props) => {
                             <tr><td>Inkscape</td>	<td>MongoDB</td></tr>
                             <tr><td>Deployed on Netlify</td>    <td>Deployed on Heroku</td></tr>
                         </table>
-                        <a href="https://github.com/lloddy/avant-garde-front" rel="noreferrer" target="_blank">
-                            <img src={gitHub} className="gitHubPort" alt="github" />
-                        </a>
-                        <h3>REPO</h3>
+                        <div className="portIcons">
+                            <div className="gitHubPort">
+                                <a href="https://github.com/lloddy/avant-garde-front" rel="noreferrer" target="_blank">
+                                    <img src={gitHub} className="gitHubPort" alt="github" id="portIconsHover"/>
+                                </a>
+                                <h3>REPO</h3>
+                            </div>
+                            <div lassName="launchPort">
+                                <a href="https://avantgardeartists.netlify.app/" rel="noreferrer" target="_blank">
+                                    <img src={launch} className="launchPort" alt="github" id="portIconsHover"/>    
+                                </a>
+                                <h3 className="launchPort">SITE</h3>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

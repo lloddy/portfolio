@@ -40,7 +40,18 @@ const Resume = (props) => {
                         <li>12 week immursive software development program.</li>
                         <li>Created full-stack applications</li>
                         <li>Database Management</li>
-                        <li>4 projects designed</li>
+                        <li>Projects Designed:</li>
+                        <ul type="circle">
+                            <li><strong>Art of the Metropolitan Museum of Art</strong></li>
+                            <p>A search engine for art through the Metropolitan Museum of Art using an API</p>
+                            <a href="https://fervent-edison-ae9da6.netlify.app/" rel="noreferrer" target="_blank">Click here to visit</a>
+                            <li><strong>Crit Club</strong></li>
+                            <p>A full CRUD application using Express.js.</p>
+                            <a href="https://desolate-inlet-28888.herokuapp.com/" rel="noreferrer" target="_blank">Click here to visit</a>
+                            <li><strong>Avant-Garde</strong></li>
+                            <p>A single-page React app that allows users to view, post, and share their favorite artists.</p>
+                            <a href="https://avantgardeartists.netlify.app/" rel="noreferrer" target="_blank">Click here to visit</a>
+                        </ul>
                         
                     </ul>
 

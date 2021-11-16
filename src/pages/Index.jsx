@@ -1,4 +1,4 @@
-import logo from '../assets/BandW.svg'
+import logo from '../assets/BandW2.svg'
 import Image1 from '../assets/slides/METbox.png'
 import Image2 from '../assets/slides/CCbox.png'
 import Image3 from '../assets/slides/AGbox.png'

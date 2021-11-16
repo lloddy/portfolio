@@ -18,9 +18,10 @@ body {
   display: flex;
   flex-direction: column;
   #logo {
-    max-height: 250px;
-    align-content: left;
-    margin-top: 40px;
+    position: relative;
+    max-width: 800px;
+    margin-left: 100px;
+    margin-top: 50px;
   }
   .slideShow {
     max-width: 500px;
@@ -30,6 +31,7 @@ body {
     border: 3px solid $secondColor;
     border-radius: 25%;
     overflow: hidden;
+    margin-bottom: 100px;
   }
   .icons {
     display: flex;
@@ -85,6 +87,16 @@ footer {
   border-radius: 30px;
   margin-bottom: 30px;
   align-items: center;
+  .portIcons {
+    display: flex;
+    margin-top: 10px;
+    #portIconsHover {
+      &:hover {
+        background-color: $mainColor;
+        width: 65px;
+      }
+    }
+  }
   .portfolioText {
     text-align: left;
     padding: 10px 20px 20px 20px;
@@ -105,8 +117,13 @@ footer {
     padding: 5px;
   }
   .gitHubPort {
-    margin: 20px 0 10px 0;
     width: 50px;
+    display: block
+  }
+  .launchPort {
+    display: block;
+    width: 50px;
+    margin-left: 40px;
   }
 }
 
