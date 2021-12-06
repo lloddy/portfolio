@@ -51,6 +51,9 @@ const Resume = (props) => {
                             <li><strong>Avant-Garde</strong></li>
                             <p>A single-page React app that allows users to view, post, and share their favorite artists.</p>
                             <a href="https://avantgardeartists.netlify.app/" rel="noreferrer" target="_blank">Click here to visit</a>
+                            <li><strong>Junto</strong></li>
+                            <p>A python/django app that lets developers share content.</p>
+                            <a href="https://thejunto.herokuapp.com/" rel="noreferrer" target="_blank">Click here to visit</a>
                         </ul>
                         
                     </ul>

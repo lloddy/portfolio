@@ -80,7 +80,7 @@ footer {
   flex-wrap: wrap;
 }
 
-.project1, .project2, .project3 {
+.project1, .project2, .project3, .project4 {
   background-color: $contrastColor;
   display: flex;
   flex-wrap: wrap;
@@ -233,7 +233,7 @@ footer {
     }
   }
 
-  #project1, #project2, #project3 {
+  #project1, #project2, #project3, #project4 {
     max-width: 200px;
   }
   .bioInfo {
