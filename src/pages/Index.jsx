@@ -2,6 +2,7 @@ import logo from '../assets/BandW2.svg'
 import Image1 from '../assets/slides/METbox.png'
 import Image2 from '../assets/slides/CCbox.png'
 import Image3 from '../assets/slides/AGbox.png'
+import Image4 from '../assets/junto.png'
 import gitHub from '../assets/github.svg'
 import linkedin from '../assets/linkedin.svg'
 import email from '../assets/email.svg'
@@ -36,6 +37,7 @@ const Index = (props) => {
                         <div id="Slides" data-src={Image1} />
                         <div id="Slides" data-src={Image2} />
                         <div id="Slides" data-src={Image3} />
+                        <div id="Slides" data-src={Image4} />
                     </AutoplaySlider>
             </div>
         </div>
