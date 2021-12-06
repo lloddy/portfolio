@@ -37,7 +37,7 @@ const Resume = (props) => {
                     <h3>Software Engineering Fellow</h3>
                     <h4>General Assembly, Sept - Dec 2021</h4>
                     <ul>
-                        <li>12 week immursive software development program.</li>
+                        <li>12 week immersive software development program.</li>
                         <li>Created full-stack applications</li>
                         <li>Database Management</li>
                         <li>Projects Designed:</li>
