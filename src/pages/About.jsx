@@ -1,5 +1,5 @@
 import Art from '../assets/articon.svg'
-import profilePic from '../assets/propic.jpg'
+import profilePic from '../assets/propicture.jpg'
 const About = (props) => {
 
     return (
