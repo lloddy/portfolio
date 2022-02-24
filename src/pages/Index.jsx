@@ -3,6 +3,7 @@ import Image1 from '../assets/slides/METbox.png'
 import Image2 from '../assets/slides/CCbox.png'
 import Image3 from '../assets/slides/AGbox.png'
 import Image4 from '../assets/junto.png'
+import Image5 from '../assets/brighter.png'
 import gitHub from '../assets/github.svg'
 import linkedin from '../assets/linkedin.svg'
 import email from '../assets/email.svg'
@@ -38,6 +39,7 @@ const Index = (props) => {
                         <div id="Slides" data-src={Image2} />
                         <div id="Slides" data-src={Image3} />
                         <div id="Slides" data-src={Image4} />
+                        <div id="Slides" data-src={Image5} />
                     </AutoplaySlider>
             </div>
         </div>

@@ -54,6 +54,9 @@ const Resume = (props) => {
                             <li><strong>Junto</strong></li>
                             <p>A python/django app that lets developers share content.</p>
                             <a href="https://thejunto.herokuapp.com/" rel="noreferrer" target="_blank">Click here to visit</a>
+                            <li><strong>Brighter</strong></li>
+                            <p>A React.js/Node.js app that lets users post on topics of depression and anxiety.</p>
+                            <a href="https://abrighterday.herokuapp.com/" rel="noreferrer" target="_blank">Click here to visit</a>
                         </ul>
                         
                     </ul>

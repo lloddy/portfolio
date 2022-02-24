@@ -2,6 +2,7 @@ import Image1 from '../assets/MET.jpeg'
 import Image2 from '../assets/Crit.png'
 import Image3 from '../assets/AvantGarde.png'
 import Image4 from '../assets/junto.png'
+import Image5 from '../assets/brighter.png'
 import gitHub from '../assets/github.svg'
 import launch from '../assets/launch.svg'
 
@@ -10,6 +11,46 @@ const Portfolio = (props) => {
         <div>
             <h1 className="portfolioTitle">Portfolio</h1>
             <div className="projects">
+                <div className="brighter">
+                    <a href="https://abrighterday.herokuapp.com/" rel="noreferrer" target="_blank">
+                        <img src={Image5} alt="brighter" id="brighter" className="portfolioImages"/>
+                    </a>
+                    <div className="portfolioText">
+                        <h2 className="projectTitles">Brighter</h2>
+                        <p>I've struggled with depression all my life. I wanted to make an app that would let users post
+                            uplifting things and support each other. Here, users can create an account and post pictures with
+                            descriptions to inspire other users.
+                        </p>
+                        <p>
+                            <table>
+                                <tr><th>Technologies Used</th></tr>
+                                <tr><td>React.js</td></tr>
+                                <tr><td>MongoDB</td></tr>
+                                <tr><td>Node.js</td></tr>
+                                <tr><td>Express.js</td></tr>
+                                <tr><td>Javascript/jQuery</td></tr>
+                                <tr><td>HTML</td></tr>
+                                <tr><td>CSS</td></tr>
+                                <tr><td>Cloudinary</td></tr>
+                                <tr><td>Deployed with Heroku</td></tr>
+                            </table>
+                        </p>
+                        <div className="portIcons">
+                            <div className="gitHubPort">
+                                <a href="https://github.com/lloddy/brighterApp" rel="noreferrer" target="_blank">
+                                    <img src={gitHub} className="gitHubPort" alt="github" id="portIconsHover"/>
+                                </a>
+                                <h3>REPO</h3>
+                            </div>
+                            <div lassName="launchPort">
+                                <a href="https://abrighterday.herokuapp.com/" rel="noreferrer" target="_blank">
+                                    <img src={launch} className="launchPort" alt="github" id="portIconsHover"/>    
+                                </a>
+                                <h3 className="launchPort">SITE</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="project4">
                     <a href="https://thejunto.herokuapp.com/" rel="noreferrer" target="_blank">
                         <img src={Image4} alt="Junto" id="project4" className="portfolioImages"/>
@@ -73,13 +114,13 @@ const Portfolio = (props) => {
                             <th>Back End</th>
                             </tr>
                             
-                            <tr><td>React</td>	<td>HTML</td></tr>
+                            <tr><td>React.js</td>	<td>HTML</td></tr>
                             <tr><td>HTML</td>	<td>JavaScript/jQuery</td></tr>
                             <tr><td>Css</td>    <td>Node.js</td></tr>
                             <tr><td>Sass</td>	<td>Express.js/ejs</td></tr>
                             <tr><td>Firebase</td>	<td>Mongoose ODM</td></tr>
                             <tr><td>Inkscape</td>	<td>MongoDB</td></tr>
-                            <tr><td>Deployed on Netlify</td>    <td>Deployed on Heroku</td></tr>
+                            <tr><td>Deployed with Netlify</td>    <td>Deployed with Heroku</td></tr>
                         </table>
                         <div className="portIcons">
                             <div className="gitHubPort">
